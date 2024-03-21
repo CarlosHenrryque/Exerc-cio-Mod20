@@ -21,6 +21,9 @@ function encontrarIndicesMaiorMenor(arr) {
     };
 }
 
+// Exportando a função encontrarIndicesMaiorMenor
+module.exports = encontrarIndicesMaiorMenor;
+
 // Exemplo de uso:
 const arrayNumerico = [10, 5, 20, 3, 15];
 const indices = encontrarIndicesMaiorMenor(arrayNumerico);
